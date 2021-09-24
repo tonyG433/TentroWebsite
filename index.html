@@ -7,43 +7,41 @@
    <meta http-equiv="X-UA-Compatible"
    content="ie=edge">
    <title>Test test</title>
-   <link rel="stylesheet" href="style.css">
+   
+   <style>
+      *
+       {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif
+      }
+      #particles-js
+      {
+         width: 100%;
+         height: 100vh;
+         background-image: url("floppa.png");
+      }
+      h1{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-size: 80px;
+         color: white;
+      }
+   </style>
 </head>
 <body>
-    <canvas class="header__background"></canvas>
-    
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
+   <div id="particles-js">
+        <h1>PARTICLES.JS</h1>
+   </div>
 
-    <script
-    src="https://npmcdn.com/particlesjs@2.2.2/dist/particles.min.js"></script>
+   <!--eu particles-->
 
-    <script>
-        // A $( document ).ready() block.
-$( document ).ready(function() {
-    Particles.init({
-          selector: '.header__background',
-          color: '#d83651',
-          maxParticles: 130,
-          connectParticles: true,
-          responsive: [
-            {
-              breakpoint: 768,
-              options: {
-                maxParticles: 80
-              }
-            }, {
-              breakpoint: 375,
-              options: {
-                maxParticles: 50
-              }
-            }
-          ]
-        });;
-});
-       
-    </script>
+   <script src="particles-js"></script>
+   <script src="app.js"></script>
+
+  
 </body>
 </html>
