@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#particles-js
+{
+   width: 100%;
+   height: 100vh;
+   background-color: black;
+}
+h1{
+   font-size: 10em;
+   color: #d83651;
+   font-family: 'Montserrat', sans-serif;
+   
+}
+
+#TentroText
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.spacing {
+   margin-left: 0.6em !important;
+   margin-right: 0.6em !important;
+}
