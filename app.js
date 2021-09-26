@@ -2,3 +2,9 @@
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('particles.js loaded - gg');
 });
+
+$(document).ready(function(){
+	$('#nav-icon4').click(function(){
+		$(this).toggleClass('open');
+	});
+});
