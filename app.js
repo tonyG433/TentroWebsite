@@ -6,5 +6,12 @@ particlesJS.load('particles-js', 'particles.json', function() {
 $(document).ready(function(){
 	$('#nav-icon4').click(function(){
 		$(this).toggleClass('open');
+	
+		if ( $('#menu').css('visibility') == 'visible' ){
+		    $('#menu').css('visibility','hidden');
+		} else {
+		    $('#menu').css('visibility','visible');
+			
+	    }
 	});
 });
