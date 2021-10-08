@@ -6,8 +6,7 @@
 }
 #particles-js
 {
-   width: 100%;
-   height: 100vh;
+   ;
    background-color: black;
 }
 h1{
@@ -15,6 +14,52 @@ h1{
    color: #d83651;
    font-family: 'Montserrat', sans-serif;
    
+}
+
+.about__section {
+    padding-top: 50px;
+    margin: auto;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.93);
+    border-radius: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 150px;
+}
+
+.about__container {
+    color: white;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__card {
+    width: 100%;
+    font-size: 90%;
+    line-height: 150%;
+}
+
+.about__card h1 {
+    font-family: 'Comfortaa', cursive;
+    color: #d83651;
+    padding-bottom: 30px;
+
+    font-size: 500%;
+}
+
+.about__card p {
+    font-family: sans-serif;
+    font-size: 130%;
+}
+
+.about__card a {
+    font-weight: 500;
+    color: white;
 }
 
 #TentroText
@@ -25,8 +70,6 @@ h1{
     
     transform: translate(-50%, -50%);
     text-align: center;
-
-
 }
 
 #TentroText a {
@@ -136,4 +179,5 @@ font-size: 9vw;
     font-size: 4.2em;
   }
   
-} 
+}
+
